@@ -66,7 +66,7 @@ cargo +nightly fmt -- --check
 cargo +nightly clippy --all --all-features -- -D warnings
 ```
 
-If you are working in VSCOde, we recommend you install the [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) extension, and use the following VSCode user settings:
+If you are working in VSCode, we recommend you install the [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) extension, and use the following VSCode user settings:
 ```
     "[rust]": {
         "editor.defaultFormatter": "rust-lang.rust-analyzer",
